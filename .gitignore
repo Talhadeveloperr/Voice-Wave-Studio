@@ -1,0 +1,20 @@
+# Ignore Python cache directories anywhere under backend
+/backend/**/__pycache__/
+
+# Ignore storage directory contents (recursive)
+/backend/app/storage/**
+
+# Ignore specific backend files
+/backend/best1.txt
+/backend/temp_3b7ab0b9-1bd3-40a2-ab82-66a7daaa31bb.wav
+/backend/temp_edbf8842-160d-49b9-b6de-b16ae348d60c.wav
+
+# Ignore frontend node modules
+/frontend/voice/node_modules/
+
+# Ignore project-level files
+/home.jsx
+/sample_trimmed.mp4
+/sample_voice.mp4
+
+
